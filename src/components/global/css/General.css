@@ -1,0 +1,84 @@
+.Header {
+  position:fixed;
+  background-color: #222;
+  height: 200px;
+  padding: 20px;
+  color: white;
+  background-color: rgb(6, 21, 69);
+  left: 0;
+  top:0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(6, 21, 69);
+  color: white;
+  text-align: center;
+  height: 70px;
+  padding: 15px;
+}
+
+.Body {
+  width: 100%;
+  position: fixed;
+  margin-top: 210px;
+}
+
+.Content{
+  overflow-y: auto;
+  height: 550px;
+}
+
+input[type=text] {
+    width: 20%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-bottom: 1%;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 90%;
+}
+
+.saveData{
+  margin-left: 45%;
+  position: fixed;
+  color: rgb(47,45,70);
+}
+
+.saveData Button{
+    background-color: rgb(47,45,70);
+}
+
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
